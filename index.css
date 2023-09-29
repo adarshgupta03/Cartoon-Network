@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.4rem;
+  color: #000;
+  font-weight: 700;
+}
+
+.main {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-image: url(beautiful.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: space-evenly;
+}
+.content img {
+  width: 350px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.content {
+  width: 40%;
+  /* line-height: 1.4rem; */
+}
+h1 {
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+p {
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+a:hover {
+  border: 0.5px solid cornflowerblue;
+}
+table {
+  height: 400px;
+  background-color: beige;
+  text-align: left;
+  padding-left: 22px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 1px white;
+  border: none;
+  position: relative;
+  top: 50px;
+}
+table td {
+  padding-left: 10px;
+}
+.image img {
+  width: 30%;
+  height: 250px;
+  box-shadow: 0px 0px 8px 1px white;
+  border: none;
+}
+.section1 {
+  margin: 60px 0px;
+}
+section h1 {
+  font-size: 30px;
+}
+.part2 {
+  padding: 1px 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid white;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+  border-radius: 15px;
+  background-image: url(beautiful.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.color {
+  background-image: url(beautiful1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.para {
+  width: 55%;
+}
+.foot {
+  background-color: #000;
+  color: white;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foot1 img {
+  width: 65px;
+  height: 40px;
+  margin-right: 55px;
+}
+.foot1 p {
+  width: 50%;
+}
+.foot1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.link {
+  padding-top: 40px;
+}
+.link a {
+  margin-left: 20px;
+}
